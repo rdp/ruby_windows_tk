@@ -1,0 +1,4 @@
+This package allows you to run windows tk ruby 1.8 programs even if your windows ruby wasn't built with tk enabled at the time.
+
+usage:
+require 'tk_here'
