@@ -2,3 +2,5 @@ This package allows you to run windows tk ruby 1.8 programs even if your windows
 
 usage:
 require 'tk_here'
+
+Note: with some ruby 1.8's it seems to not work. Try yours out.
