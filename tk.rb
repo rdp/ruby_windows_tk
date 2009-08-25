@@ -3,4 +3,5 @@ for dir in ['/lib/ruby/1.8', '/lib/ruby/1.8/tkextlib', '/lib/ruby/1.8/i386-mswin
   $: << dirname + dir
 end
 require "tk.rb"
-a = Tk
+# make sure it worked
+Tk
