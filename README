@@ -1,8 +1,15 @@
 This package allows you to run windows tk ruby 1.8 programs even if your windows ruby wasn't built with tk enabled at the time.
 
+mostly useful for 1.8.6 mingw.
+
 usage:
-require 'tk_here'
 
-pre-req: active state tcl 8.4
+git co git://github.com/rogerdpack/ruby_windows_tk.git
 
-Note: with some ruby 1.8's it seems to not work. Try yours out, let me know.
+ruby install.rb
+
+then
+
+require 'tk'
+
+pre-req: active state tcl 8.4 (on some boxes)
