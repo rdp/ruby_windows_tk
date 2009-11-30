@@ -4,7 +4,7 @@ mostly useful for 1.8.6 mingw.
 
 usage:
 
-git co git://github.com/rdp/ruby_windows_tk.git
+git clone git://github.com/rdp/ruby_windows_tk.git
 
 cd ruby_windows_tk
 
@@ -13,5 +13,7 @@ ruby install.rb
 then
 
 require 'tk'
+
+should now work
 
 pre-req: active state tcl 8.4 in your path (on some boxes--probably all)
