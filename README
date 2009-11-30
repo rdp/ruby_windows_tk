@@ -4,7 +4,9 @@ mostly useful for 1.8.6 mingw.
 
 usage:
 
-git co git://github.com/rogerdpack/ruby_windows_tk.git
+git co git://github.com/rdp/ruby_windows_tk.git
+
+cd ruby_windows_tk
 
 ruby install.rb
 
@@ -12,4 +14,4 @@ then
 
 require 'tk'
 
-pre-req: active state tcl 8.4 (on some boxes)
+pre-req: active state tcl 8.4 in your path (on some boxes--probably all)
